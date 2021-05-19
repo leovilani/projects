@@ -1,7 +1,7 @@
 import scrapy
 
 
-class LivrariaSpiderSpider(scrapy.Spider):
+class LivrariaSpider(scrapy.Spider):
     name = 'livraria_spider'
     start_urls = ['https://books.toscrape.com/']
 
